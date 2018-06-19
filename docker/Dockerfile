@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/joint-union/java8
+FROM RUN .cn-hangzhou.aliyuncs.com/joint-union/java8
 RUN ls /tmp
 COPY maven-use.tgz /tmp
 RUN ls /tmp
