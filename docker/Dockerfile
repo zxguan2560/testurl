@@ -1,8 +1,8 @@
 FROM registry.cn-hangzhou.aliyuncs.com/joint-union/java8
 RUN ls /tmp
-COPY case.tgz /tmp
+COPY maven-use.tgz /tmp
 RUN ls /tmp
-RUN tar -zxvf /tmp/case.tgz -C /tmp
+RUN tar -zxvf /tmp/maven-use.tgz -C /tmp
 RUN ls /tmp
 RUN cp /tmp/maven-use-1.0-SNAPSHOT.jar /
 EXPOSE 8094
